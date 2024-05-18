@@ -1,57 +1,52 @@
 /* ? ini css */
 
 /* ! style start */
-.pusat {
+.pusat-k {
   border: 2px solid black;
   border-radius: 4px;
 }
 
-.h1 {
+.h1-k {
   text-align: center;
 }
 
-.p-1 {
-  text-align: center;
-}
-
-.p-2 {
-  text-align: center;
-}
-
-.p-3 {
+.p-3-k {
   margin-left: 3px;
 }
 
-.p-4 {
+.p-4-k {
   text-align: center;
 }
 
-.h2-segitiga {
+.h2-segitiga-k {
   background-color: rgb(17, 205, 238);
   text-align: center;
-  padding-top: 3px;
-  padding-bottom: 3px;
+  margin-top: 0;
+  border-radius: 2px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   color: white;
 }
 
 /* ? button switch start */
 
-.btn-switch {
+.btn-switch-k {
   padding-top: 2px;
   padding-bottom: 2px;
   border-radius: 10px;
   width: 30%;
   margin-left: 35%;
   margin-right: 65%;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.a {
+.a-k {
   text-decoration: none;
   color: black;
 }
 
-.btn-switch:hover {
+.btn-switch-k:hover {
   background-image: linear-gradient(180deg, #9bdff0, #3cd9ee);
   cursor: pointer;
   transform: scale(0.9);
@@ -61,21 +56,8 @@
 
 /* <======================================> batas */
 
-/* ? section -content start */
-.section-content {
-  background-color: rgb(17, 223, 238);
-  color: white;
-  text-align: center;
-  margin-top: 0px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-}
-/* ? section -content  end */
-
-/* <======================================> batas */
-
 /* ? image start */
-.container-image {
+.container-image-k {
   text-align: center;
 }
 
@@ -87,7 +69,7 @@ img {
 /* <======================================> batas */
 
 /* ? Hitung Luas start */
-.h1-hitungluas {
+.h1-hitungluas-k {
   text-align: center;
 }
 /* ? Hitung Luas  end */
@@ -121,7 +103,7 @@ from > button {
   color: rgb(241, 238, 238);
 }
 
-.btn-hitung {
+.btn-hitung-k {
   background-color: #2d39e6;
   display: flex;
   justify-content: center;
@@ -132,13 +114,13 @@ from > button {
   margin-right: 60%;
 }
 
-.btn-hitung:hover {
+.btn-hitung-k:hover {
   background-image: linear-gradient(180deg, #19f1cd, #2d49e9);
   transform: scale(0.9);
   cursor: pointer;
 }
 
-.btn-reset {
+.btn-reset-k {
   cursor: pointer;
   background-color: none;
   color: black;
@@ -148,7 +130,7 @@ from > button {
   margin-right: 15%;
 }
 
-.btn-reset:hover {
+.btn-reset-k:hover {
   background-image: linear-gradient(180deg, red, purple);
   transform: scale(0.9);
   color: white;
@@ -157,7 +139,7 @@ from > button {
 
 /* <======================================> batas */
 /* ? Info start */
-.info {
+.info-k {
   margin-left: 10px;
   border: 1px solid;
   width: 115px;
@@ -167,7 +149,7 @@ from > button {
   border-radius: 2px;
 }
 
-.info:hover {
+.info-k:hover {
   background-color: #064858;
   color: white;
 }
