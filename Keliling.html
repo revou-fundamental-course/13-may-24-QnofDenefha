@@ -35,9 +35,9 @@
           <details class="info-k">
             <summary>Info:</summary>
             <p>K = Keliling</p>
-            <p>S1 = Sisa A</p>
-            <p>S2 = Sisa B</p>
-            <p>S3 = Sisa C</p>
+            <p>S1 = Sisi A</p>
+            <p>S2 = Sisi B</p>
+            <p>S3 = Sisi C</p>
           </details>
         </section>
 
@@ -52,19 +52,37 @@
 
           <from>
             <section>
-              <div><label>S1: </label><input /></div>
-              <div><label>S2: </label><input /></div>
-              <div><label>S3: </label><input /></div>
+              <div>
+                <label for="">S1 :</label>
+                <input type="number" id="s1" />
+              </div>
+              <div>
+                <label for="">S2 :</label>
+                <input type="number" id="s2" />
+              </div>
+              <div>
+                <label for="">S3 :</label>
+                <input type="number" id="s3" />
+              </div>
             </section>
 
-            <p>Diketahui: lorem ipsum...</p>
+            <p class="p-jawaban">Jawaban :</p>
+            <div id="output" class="output"></div>
+            <div id="output2" class="output"></div>
+            <div id="output3" class="output"></div>
 
-            <button type="button" class="btn-hitung-k">Hitung</button>
-            <button type="button" class="btn-reset-k">Reset</button>
+            <button type="button" class="btn-hitung-k" id="hitung">
+              Hitung
+            </button>
+            <button type="button" class="btn-reset-k" id="reset">Reset</button>
           </from>
         </section>
       </section>
     </div>
     <!-- ? content end -->
+
+    <!--! javascript start -->
+    <script src="js/script2.js"></script>
+    <!--! javascript end -->
   </body>
 </html>

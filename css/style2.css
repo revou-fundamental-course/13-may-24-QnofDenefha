@@ -18,6 +18,10 @@
   text-align: center;
 }
 
+.p-jawaban {
+  margin-left: 10px;
+}
+
 .h2-segitiga-k {
   background-color: rgb(17, 205, 238);
   text-align: center;
@@ -155,5 +159,12 @@ from > button {
 }
 
 /* ? Info End */
+
+/* ? output start */
+.output {
+  margin-left: 10px;
+  margin: 5px;
+}
+/* ? output end */
 
 /* ! style end */
