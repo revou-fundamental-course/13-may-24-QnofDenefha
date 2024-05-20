@@ -17,7 +17,7 @@ hitung.addEventListener("click", function () {
   output3.innerHTML = `L = ${l}`;
 });
 
-// button restart
+// ! button restart
 let reset = document.getElementById("reset");
 reset.addEventListener("click", function () {
   location.reload();
